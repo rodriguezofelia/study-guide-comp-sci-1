@@ -87,10 +87,21 @@ the data for each node? Where is the head? Where is the tail? (Be as specific as
 possible --- exactly which parts of the diagram correspond to each part? Arrows?
 Boxes? Text?)
 
+- Apple, Berry and Cherry are inside the nodes. Technically speaking, the nodes are the double boxes containing
+the data and the next pointer.
+- The data is the string in each of the left most of each node. 
+- The head is the first note that has "Apple" in it.
+- This given list doesn't keep track of a trail, but if it did it would be "Cherry."
+
 2. What's the difference between doubly- and singly-linked lists?
+
+- Doubly linked lists have a pointer to the right and left of the node, so before and after. 
+- Singly linked lists only have a pointer to the left of the node, so after. 
 
 3. Why is it faster to append to a linked list if we keep track of the `tail`
 as an attribute?
+
+- Because we don't have to traverse the list every time we add a node. So we'd have a O(1) runtime aka constant.
 
 Trees
 -----
