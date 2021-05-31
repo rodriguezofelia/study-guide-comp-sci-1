@@ -6,34 +6,48 @@ to consider the length of time it takes for the algorithm to run as the algorith
 workload approaches infinity. What determines the **workload** of figuring out
 whether your box of animal crackers contains an elephant?
 
+Answer: The number of total animal crackers in the box
+
 
 2. Order the following runtimes in descending order of efficiency (that is,
 	fastest runtimes first, slowest last) as `n` approaches infinity:
 
+   - O(1)
+
    - O(log n)
 
-   - O(n^2)
+    - O(n)
 
    - O(n log n)
 
-   - O(n)
+   - O(n^2)
 
    - O(2^n)
 
-   - O(1)
+
 
 
 In the file called `runtime.py`, there are 5 functions.
 
 1. What is the runtime for `string_compare`?
 
+linear (O(n))
+
 2. What is the runtime for `has_exotic_animals`?
+
+linear (O(n))
 
 3. What is the runtime for `sum_zero_1`?
 
+linear (O(n))
+
 4. What is the runtime for `sum_zero_2`?
 
+quadratic (O(n^2))
+
 5. What is the runtime for `sum_zero_3`?
+
+quadratic (O(n^3))
 
 
 Stacks and Queues
@@ -43,16 +57,27 @@ Stacks and Queues
 	structure?
 
   - The process of loading and unloading pallets onto a flatbed truck
+    A: Stack
 
   - Putting bottle caps on bottles of beer as they roll down an assembly line
+    A: Queue
 
 
 2. Describe two more situations where a queue would be an appropriate data
 	structure.
 
+  - The hackbright help queue, where the each person in queue is added to the end of hte list. The next person to be helped 
+  is the one next in line. 
+
+  - A task list that are done in order. So oldest are done first (or at the top) and go down the list. 
+
 3. Describe two more situations where a stack would be an appropriate data
 	structure.
+  
+  - A to do list with a priority list. So the most important things at the beginning. 
 
+  - The back button on a webpage. So the most recent (to least recent)
+ page is shown first when clicking the back button. 
 
 Linked Lists
 ------------
