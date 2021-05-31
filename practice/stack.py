@@ -95,9 +95,7 @@ class Stack(object):
             0
         """
 
-        # FIXME
-
-        pass
+        self._list = []
 
     def is_empty(self):
         """Is stack empty?
@@ -115,9 +113,7 @@ class Stack(object):
             False
         """
 
-        # FIXME
-
-        pass
+        return not self._list
 
 if __name__ == "__main__":
     import doctest
