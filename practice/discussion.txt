@@ -109,5 +109,9 @@ Trees
 1. What would be the best data structure to use for keeping track of nodes to
 	visit during a Breadth First Search of a tree?
 
+  - Queues
+
 2. What would be the best data structure to use for keeping track of nodes to
 	visit during a Depth First Search of a tree?
+
+  - Stacks
