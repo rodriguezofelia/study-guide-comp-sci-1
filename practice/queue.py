@@ -70,9 +70,7 @@ class Queue(object):
             <Queue ['buy flight', 'pack', 'enjoy vacation']>
         """
 
-        # FIXME
-
-        pass
+        return self._list[0]
 
 if __name__ == "__main__":
     import doctest
