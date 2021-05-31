@@ -76,9 +76,7 @@ class Stack(object):
             3
         """
 
-        # FIXME
-
-        pass
+        return len(self._list)
         
     def empty(self):
         """Empty stack::
